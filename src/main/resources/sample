@@ -1,0 +1,16 @@
+{"timestamp":"2023-01-23T13:18:42.8330201","message":"Validation failed for argument [0]
+in public org.springframework.http.ResponseEntity<com.in28minutes.rest.webservices.restfulwebservices.user.User>
+ com.in28minutes.rest.webservices.restfulwebservices.user.UserResources.creteUser(com.in28minutes.rest.webservices.restfulwebservices.user.User)
+ with 2 errors:
+
+ [Field error in object 'user' on field 'birthDate': rejected value [2024-12-31];
+ codes [Past.user.birthDate,Past.birthDate,Past.java.time.LocalDate,Past];
+ arguments [org.springframework.context.support.DefaultMessageSourceResolvable:
+ codes [user.birthDate,birthDate]; arguments []; default message [birthDate]];
+ default message [must be a past date]]
+
+ [Field error in object 'user' on field 'name': rejected value [];
+ codes [Size.user.name,Size.name,Size.java.lang.String,Size];
+ arguments [org.springframework.context.support.DefaultMessageSourceResolvable:
+ codes [user.name,name]; arguments []; default message [name],2147483647,2];
+ default message [size must be between 2 and 2147483647]] ","details":"uri=/users"}
