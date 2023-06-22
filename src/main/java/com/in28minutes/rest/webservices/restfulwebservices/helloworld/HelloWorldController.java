@@ -60,4 +60,6 @@ public class HelloWorldController {
 		//		- Example: `de` - Deutsch (Guten Morgen)
 
 	}
+
+	/*Adding lines to test the commits.*/
 }
